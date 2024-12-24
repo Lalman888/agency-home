@@ -25,10 +25,10 @@ export function HomeHeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold dark:text-white text-black mb-6">
                 Empowering Businesses with Digital Innovation
               </h1>
-              <p className="text-xl text-white/90 mb-8">
+              <p className="text-xl dark:text-white/90 text-black/90 mb-8">
                 AI, Blockchain, and Web Development solutions tailored to achieve your goals.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -41,7 +41,7 @@ export function HomeHeroSection() {
                 <Button 
                   size="lg" 
                   variant="outline" 
-                  className="bg-white/10 hover:bg-white/20 border-white/20" 
+                  className="bg-white/10 hover:bg-white/20 dark:border-white/20 border-black/10 " 
                   asChild
                 >
                   <Link href="/contact">

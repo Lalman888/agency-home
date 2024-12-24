@@ -9,7 +9,7 @@ import { notFound } from 'next/navigation';
 import { projects } from '@/lib/projects';
 
 // export function generateStaticParams() {
-//   return Object.keys(projects).map((slug) => ({
+//   return Object.keysx(projects).map((slug) => ({
 //     slug,
 //   }));
 // }
